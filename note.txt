@@ -27,3 +27,9 @@
 } // Error Format
 
 13.212.114.135
+
+pm2 start npm --name "notes-api" -- run "start-prod"
+pm2 restart notes-api // to restart or use pm2 resurrect
+pm2 stop notes-api // to stop
+pm2 start notes-api // menjalankan kembali proses yg telah diregister sebelumnya
+
