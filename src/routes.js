@@ -9,12 +9,12 @@ const {
 const routes = [
   {
     method: 'POST',
-    path: ['/notes', '/notes/'],
+    path: '/notes',
     handler: addNoteHandler,
   },
   {
     method: 'GET',
-    path: ['/notes', '/notes/'],
+    path: '/notes',
     handler: getAllNotesHandler,
   },
   {
