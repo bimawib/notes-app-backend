@@ -1,0 +1,27 @@
+{
+    id: string,
+    title: string,
+    createdAt: string,
+    updatedAt: string,
+    tags: array of string,
+    body: string,
+}
+
+{
+ "title": "Judul Catatan",
+ "tags": ["Tag 1", "Tag 2"],
+ "body": "Konten catatan"
+} // Request Form and PUT Form
+
+{
+  "status": "success",
+  "message": "Catatan berhasil ditambahkan",
+  "data": {
+    "noteId": "V09YExygSUYogwWJ"
+  }
+} // Response Success Format
+
+{
+  "status": "error",
+  "message": "Catatan gagal untuk ditambahkan"
+} // Error Format
